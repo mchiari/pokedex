@@ -46,7 +46,7 @@ function App() {
 
 	useEffect(() => {
 		loadFavoritePokemons();
-	}, [loadFavoritePokemons]);
+	}, []);
 
 	const updateFavoritePokemons = (name) => {
 		const updatedFavorites = [...favorites];
